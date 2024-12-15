@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c9b154c1558eb0b",
+  "active": "6013c27e5a567ce1",
   "lastOpenFiles": [
+    "README.md",
     "Different Phases of a Compiler.md",
     "Lexical Analyzer.md",
     "Symbol Table.md",
