@@ -31,7 +31,7 @@ The expression is first given to the analysis phase, and the **Lexical Analyzer*
 > - **_** : underscore
 
 
-# 2 Syntax Analysis
+# 2. Syntax Analysis
 ---
 In this particular phase (or parsing), the code `x = a+b*c` is analyzed to ensure it adheres to the grammatical rules of the programming language. The **Syntax Analyzer** (or parser) processes this line by line building a **parse tree** or **abstract syntax tree (AST)**, which represents the structure of the expression according to the rules of the language's grammar.
 

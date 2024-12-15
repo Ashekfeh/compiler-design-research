@@ -26,7 +26,7 @@ As the [[Different Phases of a Compiler|initial phase of a compiler]], the prima
     - (0+1)* = {"0", "1"}* = {e, 0, 1, 00, 11, 01, 10, ...} # set of all binary string (including the empty string)
     - {"ab", "c"}* = {e, "ab", "c", "abab", "cc", "abc", "cab", ...}
 
-## Finite Automata
+# Finite Automata
 
 Using **regex** we can describe various languages (e.g., `digits: digit digit*`, `identifier: letter (letter+digit)*`). to implement this, we need a system that takes a regular expression $R$ representing a regular language $L(R)$, along with an input string $s$, 
 returning `accept` if $s \in L(R)$ and `reject` otherwise. this can be achieved by using **Finite Automata**
@@ -75,5 +75,15 @@ A **Lexical Analyzer** performs these conversions internally to decide whether a
 
 - For $A*$:
 ![[Pasted image 20241206214100.png]]
+
+
+## NFA to DFA
+
+After converting a regular expression (RE) to an NFA, the lexer internally transforms the NFA into a DFA. In an NFA with `n` states each state can transition to a maximum of `n` other states. Additionally, there are $2^2 - 1$ possible *non-empty subsets of states or configurations*. As a result, converting an NFA with `n` states can generate a DFA with up to $2^n - 1$ states.
+
+for example if we were to convert the following NFA:
+
+#TODO: Add Graphs to conversion from DFA to NFA
+
 
 

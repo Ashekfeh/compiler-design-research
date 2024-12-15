@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9ce63f25637023dc",
@@ -134,18 +135,6 @@
             }
           },
           {
-            "id": "e0cb6a60e02a1a6f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Introduction to Compiler Design.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Introduction to Compiler Design"
-            }
-          },
-          {
             "id": "ef48f10c14ffd94f",
             "type": "leaf",
             "state": {
@@ -154,9 +143,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "e7b6fc5485226d4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lexical Analyzer.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lexical Analyzer"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,13 +174,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6013c27e5a567ce1",
+  "active": "6c9b154c1558eb0b",
   "lastOpenFiles": [
-    "README.md",
     "Different Phases of a Compiler.md",
-    "Lexical Analyzer.md",
-    "Symbol Table.md",
     "References.md",
+    "Lexical Analyzer.md",
+    "README.md",
+    "Symbol Table.md",
     "Introduction to Compiler Design.md",
     "assets/Pasted image 20241206214100.png",
     "assets/Pasted image 20241206214003.png",
