@@ -1,0 +1,5 @@
+- Nystrom, R. (2021). *Crafting Interpreters*. Genever Benning. https://craftinginterpreters.com
+- Aho, A. V., Lam, M. S., Sethi, R., & Ullman, J. D. (2007). *Compilers: Principles, techniques, and tools* (2nd ed.). Pearson Education.
+- Neso Academy (2022), *Compiler Design*. [Introduction to Lexical Analyzer](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q)
+- Jordan K. *Introduction to Systems Programming, C language, and Tools for software engineering*[Intro to Systems Programming, the C Language, and Tools for Software Engineering - COMP211 at UNC - Fall 2020 - YouTube](https://www.youtube.com/playlist?list=PLKUb7MEve0TjHQSKUWChAWyJPCpYMRovO)
+- Nguyen. T (2021). *Compiler Construction* [Compiler Construction](https://nguyenthanhvuh.github.io/class-compilers/index.html)
