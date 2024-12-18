@@ -86,4 +86,6 @@ for example if we were to convert the following NFA:
 #TODO: Add Graphs to conversion from DFA to NFA
 
 
-
+# Tokenization
+---
+Tokenization is a fundamental process in the lexical analysis phase of a compiler, where *the raw source code* is broken down into smaller, meaningful units called **tokens**. Each token represents a specific type of construct in the programming language, such as keywords, identifiers, operators, literals, or punctuation marks. This process simplifies the source code into structured sequence of tokens, discarding irrelevant elements like comments and whitespace. By categorizing these components, tokenization prepares the input for further syntactic and semantic analysis. It ensures that the code adheres to the basic lexical rules of the language and forms the foundation for understanding the program's structure and intent.
